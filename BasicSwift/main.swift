@@ -7,5 +7,17 @@
 
 import Foundation
 
-print("Hello, World!")
+// Variables & Constants
 
+/**
+ * keyword var is mutable variable
+ * keyword let is immutable varibale
+ */
+var userName = "Imam Mufiid"
+print(userName)
+
+userName = "Mufiid"
+print(userName)
+
+let userAge = 22
+// userAge = 50 // ERROR: [Cannot assign to value 'userAge' is a 'let' constant
