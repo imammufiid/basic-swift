@@ -21,3 +21,9 @@ print(userName)
 
 let userAge = 22
 // userAge = 50 // ERROR: [Cannot assign to value 'userAge' is a 'let' constant
+
+// Initialized variable
+let myUsername: String
+myUsername.lowercased() // ERROR: [Constant variable used before assigned variable]
+myUsername = "Imam" // assign variable before using this variable
+print(myUsername.uppercased())
