@@ -20,3 +20,9 @@ print(intArray[2])
 
 // Getting total item in array
 print(strArray.count)
+
+// Set -> Unordered collection and unique element
+var myArray = [1, 3, 2, 5, 7, 1, 2, 2, 6]
+var mySetArray = Set(myArray)
+print(myArray)
+print(mySetArray)
