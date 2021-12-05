@@ -26,3 +26,22 @@ var myArray = [1, 3, 2, 5, 7, 1, 2, 2, 6]
 var mySetArray = Set(myArray)
 print(myArray)
 print(mySetArray)
+
+
+// Dictionary -> HashMap in Kotlin
+// key - value pairing
+var myNames = ["Imam": "Mufiid", "Upin": "Ipin"]
+print(myNames)
+
+// Getting value of Dictionary
+print(myNames["Mufid"] ?? "-")
+
+// Change value of Dictionary by key
+myNames["Upin"] = "Mail"
+print(myNames)
+
+// Add item in Dictionary
+myNames["Jarjit"] = "Sigh"
+print(myNames)
+
+
